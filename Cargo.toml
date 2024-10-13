@@ -1,0 +1,13 @@
+[package]
+name = "vigem-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+thiserror = "1.0.64"
+winapi = { version = "0.3.9", features = ["winnt", "fileapi", "winbase", "handleapi", "errhandlingapi", "setupapi"] }
+
+[[bin]]
+name = "test_console"
+path = "bin/test_console.rs"

@@ -1,0 +1,8 @@
+use winapi::shared::guiddef::GUID;
+
+pub const GUID_DEVINTERFACE_BUSENUM_VIGEM: GUID = GUID {
+    Data1: 0x96E42B22,
+    Data2: 0xF5E9,
+    Data3: 0x42F8,
+    Data4: [0xB0, 0x43, 0xED, 0x0F, 0x93, 0x2F, 0x01, 0x4F],
+};
